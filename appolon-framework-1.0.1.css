@@ -1,0 +1,768 @@
+/*----------------------------------------------------
+| APPOLON FRAMEWORK BASED-TEMPLATE
+| Author : Jean-Charles Kablankan
+| Contributor : Georges Elvis Amani
+| (c)copyright 2015
+----------------------------------------------------*/
+
+/*----------------------------------------------------
+| STACK
+----------------------------------------------------*/
+
+/* STACK SIZING */
+
+.appolon .widestack {
+	width: 100%;
+	margin: 0;
+}
+
+.appolon .fixedstack {
+	position: fixed;
+	margin: 0;
+}
+
+
+/* STACK POSITIONNING */
+
+.appolon .relativ {
+	position: relative;
+}
+
+.appolon .absolut {
+	position: absolute;
+}
+
+
+/* STACK MARGIN & PADDING */
+
+.appolon .padding { /* Only for pragraph, heading */
+	padding: 10px;
+}
+
+.appolon .minpadding { /* Only for pragraph, heading */
+	padding: 5px;
+}
+
+.appolon .margin { /* Only for pragraph, heading */
+	margin: 10px;
+}
+
+.appolon .minmargin { /* Only for pragraph, heading */
+	margin: 5px;
+}
+
+.appolon .marged {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.appolon .minmarged {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.appolon .maxmarged {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.appolon .top {
+	margin-top: 10px;
+}
+
+.appolon .mintop {
+	margin-top: 5px;
+}
+
+.appolon .bottom {
+	margin-bottom: 10px;
+}
+
+
+.appolon .padded {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.appolon .minpadded {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.appolon .maxpadded {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.appolon .up {
+	padding-top: 10px;
+}
+
+.appolon .down {
+	padding-bottom: 10px;
+}
+
+.appolon .scape {
+	margin-left: 10px;
+}
+
+.appolon .scope {
+	margin-right: 10px;
+}
+
+
+/* STACK NATIVE COLOURING */
+
+.appolon .whitestack {
+	background: white;
+	color: #000;
+}
+
+.appolon .blackstack {
+	background: black;
+	color: #000;
+}
+
+.appolon .redstack {
+	background: #d9534f;
+	color: #fff;
+}
+
+.appolon .bluestack {
+	background: #337AB7;
+	color: #fff;
+}
+
+.appolon .greenstack {
+	background: #5CB85C;
+	color: #fff;
+}
+
+.appolon .graystack {
+	background: #DADADA;
+	color: #555;
+}
+
+.appolon .lightgraystack {
+	background: #EFEFEF;
+	color: #555;
+}
+
+.appolon .orangestack {
+	background: #F0AD4E;
+	color: #fff;
+}
+
+
+
+/* STACK NATIVE SVG */
+/* Nothing again... */
+
+
+
+
+/* STACK LAYOUTS */
+
+/* Radius */
+.appolon .rounded {
+	border-radius: 4px;
+}
+
+.appolon .ld-rounded {
+	border-radius: 0 0 0 5px;
+}
+
+.appolon .lt-rounded {
+	border-radius: 5px 0 0 0;
+}
+
+.appolon .rd-rounded {
+	border-radius: 0 0 5px 0;
+}
+
+.appolon .rt-rounded {
+	border-radius: 0 5px 0 0;
+}
+
+
+/* Border */
+.appolon .borded {
+	border: thin solid #dadada;
+}
+
+.appolon .topborded {
+	border-top: thin solid #dadada;
+}
+
+.appolon .bottomborded {
+	border-bottom: thin solid #dadada;
+}
+
+.appolon .leftborded {
+	border-left: thin solid #dadada;
+}
+
+.appolon .rightborded {
+	border-right: thin solid #dadada;
+}
+
+/* Border with dash */
+.appolon .dashborded {
+	border: thin dashed #dadada;
+}
+
+.appolon .bold-dashborded {
+	border: 5px dashed #dadada;
+}
+
+.appolon .normal-dashborded {
+	border: 4px dashed #dadada;
+}
+
+.appolon .light-dashborded {
+	border: 2px dashed #dadada;
+}
+
+
+/* TEXTS HEADINGS */
+
+.appolon h1, h2, h3, h4, h5, h6, .txs, .tx {
+	font-family: inherit;
+}
+
+.appolon h1 {
+	font-size: 51px;
+	font-weight: 900;
+}
+
+.appolon h2 {
+	font-size: 43px;
+	font-weight: 700;
+}
+
+.appolon h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.appolon h4 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.appolon h5 {
+	font-size: 19px;
+	font-weight: 500;
+}
+
+.appolon h6 {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+/*-----------------*/
+
+.appolon h1 small {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.appolon h2 small {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.appolon h3 small {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.appolon h4 small {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.appolon h5 small {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.appolon h6 small {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.appolon .txs {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.appolon .tx {
+	font-size: 12px;
+}
+
+.appolon .t {
+	font-size: 10px;
+}
+
+/* Largest Texts */
+.appolon .tbig {
+	font-size: 200px;
+}
+
+.appolon .tlarge {
+	font-size: 150px;
+}
+
+.appolon .tmedium {
+	font-size: 100px;
+}
+
+
+
+/* TEXTS POSITIONNING */
+
+.appolon .tcenter {
+	text-align: center;
+}
+
+.appolon .tright {
+	text-align: right;
+}
+
+.appolon .tleft {
+	text-align: left;
+}
+
+.appolon .tjustify{
+	text-align: justify;
+}
+
+
+
+/* TEXTS BODY (LAYOUT) */
+
+.appolon .tbolder {
+	font-weight: 900;
+}
+
+.appolon .tslimer {
+	font-weight: 500;
+}
+
+.appolon .tlighter {
+	font-weight: 300;
+}
+
+.appolon .tdashed {
+	border-bottom-style: dashed;
+	border-bottom-width: thin;
+}
+
+.appolon .tupper {
+	text-transform: uppercase;
+}
+
+.appolon .tlower {
+	text-transform: lowercase;
+}
+
+.appolon .tcapitalize {
+	text-transform: capitalize;
+}
+
+.appolon .tunderlined {
+	text-decoration: underline;
+}
+
+
+/* TEXTS NATIVE COLOURING */
+
+.appolon .twhite {
+	color: white;
+}
+
+.appolon .tblack {
+	color: black;
+}
+
+.appolon .tred {
+	color: #D9534F;
+}
+
+.appolon .tblue {
+	color: #337AB7;
+}
+
+.appolon .torange {
+	color: #EC971F;
+}
+
+.appolon .tgreen {
+	color: #5CB85C;
+}
+
+.appolon .tgray {
+	color: #999;
+}
+
+
+
+/* LISTING UL */
+
+/* Horizontaly */
+
+.appolon .horizontaly {
+	font-family: inherit;
+}
+
+.appolon .horizontaly li {
+	display: inline-block;
+	margin-right: 10px;
+	list-style: none;
+}
+
+.appolon .horizontaly li a  {
+	text-decoration: underline;
+}
+
+/* Verticaly */
+
+.appolon .verticaly {
+	font-family: inherit;
+}
+
+.appolon .verticaly li {
+	display: list-item;
+	margin-bottom: 6px;
+	list-style: none;
+}
+
+.appolon .verticaly li a  {
+	text-decoration: underline;
+}
+
+.appolon .list-number li {
+	list-style: number;
+}
+
+.appolon .list-star li {
+	list-style-type: "★";
+}
+
+
+
+/* NATIVE LINK */
+
+.appolon a {
+	color: gray;
+}
+
+
+
+
+/* STACK CONTEXTUAL COLOURING */
+
+.appolon .error {
+	background: #D9534F;
+	color: black;
+}
+
+.appolon .success {
+	background: #337AB7;
+	color: white;
+}
+
+.appolon .info {
+	background: #F0AD4E;
+	color: black;
+}
+
+.appolon .active {
+	background: #DADADA;
+	color: black;
+}
+
+
+/* STACK DISPLAYING */
+
+.appolon .show {
+  display: block !important;
+}
+
+.appolon .hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.appolon .fleft {
+  float: left !important;
+}
+
+.appolon .fright {
+  float: right !important;
+}
+
+
+
+
+/* STACK INPUT */
+
+.appolon .input {
+	display: block;
+	width: 100%;
+	font-family: inherit;
+	color: black;
+	border: none;
+}
+
+
+.appolon .input:focus {
+	border: none; 
+}
+
+select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: normal;
+	color: inherit;
+}
+
+option {
+	margin-top: 2%;
+}
+
+option:hover {
+	background: #eee;
+}
+
+
+/* Sizes */
+
+/* Inputs */
+.appolon .smallbox {
+	padding: 4px;
+	font-size: 11px;
+}
+
+.appolon .midbox {
+	padding: 8px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.appolon .largebox {
+	padding: 12px;
+	font-size: 14px;
+}
+
+/* Selects */
+.appolon .smallselect {
+	padding: 3px;
+	font-size: 11px;
+}
+
+.appolon .midselect {
+	padding: 7px;
+	font-size: 14px;
+}
+
+.appolon .largeselect {
+	padding: 12px;
+	font-size: 14px;
+}
+
+
+/* Layouts */
+
+/* Textarea */
+.appolon .fixedbox {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+
+.appolon .iborded {
+	border: thin solid #dadada;
+}
+
+.appolon .iborded:focus {
+	border: thin solid #dadada;
+}
+
+.appolon .checker {
+	background: black;
+}
+
+
+/* STACK BUTTON, SUBMIT */
+
+button {
+	cursor: pointer;
+}
+
+/* Sizes */
+
+.appolon button, .btn {
+	display: block;
+	white-space: nowrap;
+	vertical-align: middle;
+	padding: 8px;
+	text-align: center;
+	border: none;
+	width: 100%;
+	background: #dadada;
+	color: #555;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: normal;
+}
+
+.appolon .smallbtn {
+	padding: 3px;
+	font-size: 12px;
+}
+
+
+.appolon .midbtn {
+	padding: 7px;
+	font-size: 13px;
+}
+
+
+.appolon .largebtn {
+	padding: 12px;
+	font-size: 14px;
+}
+
+.appolon .xlbtn {
+	padding: 14px;
+	font-size: 18px;
+}
+
+
+/* Layouts */
+
+
+
+/* Colors */
+
+.default-btn {
+	background: #fff;
+	color: #555;
+	border: thin solid #ccc;
+}
+
+.default-btn:hover {
+	background: #eee;
+	color: #555;
+	border: thin solid #ccc;
+}
+
+.appolon-btn {
+	background: #ffba00;
+	color: #333;
+	border: thin solid #ffba00;
+}
+
+.appolon-btn:hover {
+	background: #f0af00;
+	color: #333;
+	border: thin solid #bb8800;
+}
+
+.outline-btn {
+	background: #fff;
+	color: #555;
+	border: thin solid #ccc;
+}
+
+.outline-btn:hover {
+	background: #eee;
+	color: #555;
+	border: thin solid #ccc;
+}
+
+
+/* STACK IMAGES */
+
+.appolon .img {
+  	display: block !important;
+  	max-width: 100%;
+  	width: 100%;
+  	height: auto;
+}
+
+.appolon .thumbnail {
+  	display: block !important;
+  	border: 5px white solid;
+  	box-shadow: 0px 0px 1px #444;
+}
+
+
+
+
+/* STACK NON (CLASSE RESET) */
+
+.appolon .none li a {
+	text-decoration: none;
+}
+
+.appolon .none a {
+	text-decoration: none;
+}
+
+
+/* STACK OPACITY */
+
+.appolon .op 	{ opacity: 1; }
+.appolon .op_9 	{ opacity: 0.9; }
+.appolon .op_8 	{ opacity: 0.8; }
+.appolon .op_7 	{ opacity: 0.7; }
+.appolon .op_6 	{ opacity: 0.6; }
+.appolon .op_5 	{ opacity: 0.5; }
+.appolon .op_4 	{ opacity: 0.4; }
+.appolon .op_3 	{ opacity: 0.3; }
+.appolon .op_2 	{ opacity: 0.2; }
+.appolon .op_1 	{ opacity: 0.1; }
+
+
+
+/* STACK Z-INDEXES */
+
+.appolon .index { z-index: 999;  }
+.appolon .x-index { z-index: 9999;  }
+.appolon .xl-index { z-index: 99999;  }
+.appolon .xxl-index { z-index: 999999;  }
+
+
+
+/* STACK DUSH (DOWN PUSH) */
+
+.appolon .dush_1 {
+	margin-top: 30px;
+}
+
+.appolon .dush_2 {
+	margin-top: 70px;
+}
+
+.appolon .dush_3 {
+	margin-top: 110px;
+}
+
+.appolon .dush_4 {
+	margin-top: 150px;
+}
+
+.appolon .dush_5 {
+	margin-top: 190px;
+}
+
+
+
+/* BIG SIZES */
+
