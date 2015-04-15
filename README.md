@@ -3,6 +3,6 @@ Appolon is a minimalistic Html5 and CSS3 Framework Template Based for starter  A
 
 # Added on release 1.0.2 :
 For padding left and right :
-.cape { padding-left: 10px; }
-.cope { padding-right: 10px; }
-.minbottom { margin-bottom: 5px; }
+.cape { padding-left: 10px; }.
+.cope { padding-right: 10px; }.
+.minbottom { margin-bottom: 5px; }.
